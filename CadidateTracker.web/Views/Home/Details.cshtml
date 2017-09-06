@@ -1,0 +1,23 @@
+﻿@using CandidateTracker.data
+@using CadidateTracker.web.Models
+@model DetailsViewModel
+
+
+<div class="container" style="margin-top:50px;">
+    <div class="well">
+        <h3>Name: @Model.Candidate.FirstName @Model.Candidate.LastName</h3>
+        <h3>Phone: @Model.Candidate.PhoneNumber</h3>
+        <h3>Email: @Model.Candidate.Email</h3>
+        <h3>Notes:</h3>
+        <p>@Model.Candidate.Notes</p>
+        <p hidden id="status">@Model.Candidate.Status</p>
+        <br />
+        <button class="btn btn-success" id="confirm-btn" data-id="@Model.Candidate.Id">Confirm</button>
+        <button class="btn btn-danger" id="refuse-btn" data-id="@Model.Candidate.Id">Refuse</button>
+    </div>
+</div>
+
+@section scripts
+{
+<script src="~/Scripts/details.js"></script>
+    }

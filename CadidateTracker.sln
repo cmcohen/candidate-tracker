@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadidateTracker.web", "CadidateTracker.web\CadidateTracker.web.csproj", "{230AC195-09C7-43CB-A1A9-B1C0B59280A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateTracker.data", "CandidateTracker.data\CandidateTracker.data.csproj", "{DF9B6FA1-0333-40D6-9862-FACB71E90CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230AC195-09C7-43CB-A1A9-B1C0B59280A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230AC195-09C7-43CB-A1A9-B1C0B59280A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230AC195-09C7-43CB-A1A9-B1C0B59280A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230AC195-09C7-43CB-A1A9-B1C0B59280A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9B6FA1-0333-40D6-9862-FACB71E90CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9B6FA1-0333-40D6-9862-FACB71E90CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9B6FA1-0333-40D6-9862-FACB71E90CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9B6FA1-0333-40D6-9862-FACB71E90CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
